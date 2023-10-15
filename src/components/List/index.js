@@ -1,5 +1,6 @@
 import React from "react";
 import { sections } from "../../App";
+import './index.css'
 
 function List(props){
   return(

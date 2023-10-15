@@ -1,0 +1,30 @@
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  
+  margin-top: 24px;
+}
+
+section ul li {
+  transition: transform .3s;
+}
+
+section ul li:hover {
+  transform: scale(1.1)
+}
+
+.games-list img {
+  width: 90px;
+  border-radius: 8px;
+}
+
+.channel-list img {
+  border-radius: 50%; 
+  width: 70px;
+  border: 1px solid #443E54;
+}
+
+.social-list img {
+  width: 2rem;
+}

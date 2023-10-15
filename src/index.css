@@ -11,7 +11,7 @@ ul {
 }
 
 body {
-  background-image: url(./components/Body/bg.jpg);
+  background-image: url(../public/img/bg.jpg);
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -21,99 +21,6 @@ body {
 body * {
   font-family: 'Inter', sans-serif;
   line-height: 160%;
-}
-
-header {
-  padding-top: 32px;
-  height: calc(120px + 32px);
-}
-
-header div {
-  width: 120px;
-  margin: auto;
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
-  
-  border-radius: 50%;
-  
-  display: flex;
-  padding: 4px;
-  
-  transition: transform .3s;
-}
-
-header div:hover {
-  transform: scale(1.1)
-}
-
-header div img {
-  width: 100%;
-  border-radius: 50%;
-}
-
-main {
-  max-width: 580px;
-  width: 90%;
-  margin: 32px auto;
-  
-  display: grid;
-  gap: 24px;
-}
-
-section {
-  color: white;
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
-  padding-top: 7.5px;
-  border-radius: 10px;
-  border-color: transparent;
-}
-
-section div {
-  background-color: #2A2634;
-  padding: 32px;
-  padding-top: 24px;
-  border-radius: 0 0 8px 8px;
-}
-
-section h2 {
-  letter-spacing: -0.47px;
-  font-size: 1.65rem;
-  text-transform: lowercase;
-  font-weight: 600;
-}
-
-section p {
-  letter-spacing: 0.18px;
-  color: #FFF8;
-  font-size: 1rem;
-  font-family: 'Inter Tight', 'Inter', sans-serif;
-  font-weight: 300;
-}
-
-section ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  
-  margin-top: 24px;
-}
-
-section ul li {
-  transition: transform .3s;
-}
-
-section ul li:hover {
-  transform: scale(1.1)
-}
-
-.games-list img {
-  width: 90px;
-  border-radius: 8px;
-}
-
-.channel-list img {
-  border-radius: 50%; 
-  width: 70px;
-  border: 1px solid #443E54;
 }
 
 /* animation */

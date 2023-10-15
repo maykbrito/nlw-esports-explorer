@@ -1,6 +1,7 @@
 import React from "react";
 import { Section } from '../Section'
 import { sections } from "../../App";
+import './index.css'
 
 function Main(){
   return(

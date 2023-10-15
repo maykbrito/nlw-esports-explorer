@@ -1,0 +1,29 @@
+section {
+  color: white;
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  padding-top: 7.5px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+section div {
+  background-color: #2A2634;
+  padding: 32px;
+  padding-top: 24px;
+  border-radius: 0 0 8px 8px;
+}
+
+section h2 {
+  letter-spacing: -0.47px;
+  font-size: 1.65rem;
+  text-transform: lowercase;
+  font-weight: 600;
+}
+
+section p {
+  letter-spacing: 0.18px;
+  color: #FFF8;
+  font-size: 1rem;
+  font-family: 'Inter Tight', 'Inter', sans-serif;
+  font-weight: 300;
+}
